@@ -12,6 +12,7 @@
    		Allow from all
 		Require all granted
                 AllowOverride All
+                Options FollowSymLinks
 	</Directory>
 	
 	CustomLog ${site_log_path}access.log common
