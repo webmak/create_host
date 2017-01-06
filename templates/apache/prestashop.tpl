@@ -11,6 +11,7 @@
 		Order allow,deny
    		Allow from all
 		Require all granted
+                AllowOverride All
 	</Directory>
 	
 	CustomLog ${site_log_path}access.log common
