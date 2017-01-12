@@ -27,6 +27,7 @@ php_path
 hosts_ip
 site_template
 php_prefix
+sites_folder_name
 site_path
 site_public_path
 site_log_path

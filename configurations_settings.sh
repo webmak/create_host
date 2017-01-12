@@ -57,6 +57,10 @@ function change_settings {
             echo 'Type php prefix:';
             read php_prefix;
         ;;
+        '7')
+            echo 'Sites folder name:';
+            read sites_folder_name;
+        ;;
         *)
             echo 'Incorrect selection. Press enter to continue.'; 
             read;

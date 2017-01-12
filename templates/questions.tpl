@@ -8,5 +8,6 @@ Settings to create virtualhost:
     magento
     prestashop
 6)php prefix: ${php_prefix} [to change press 6]
+7)sites folder name: ${sites_folder_name} [to change press 7]
 
 To create with current settings press 0

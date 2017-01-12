@@ -26,6 +26,7 @@ php_path='/opt/php-7.0.14/';
 hosts_ip='127.0.0.1';
 site_template='magento';
 php_prefix='php-fcgi';
+sites_folder_name='sites';
 
 source template_vars.sh;
 source templater.sh;
@@ -34,7 +35,7 @@ source creator.sh;
 
 configure_settings;
 
-site_path="/home/${user}/sites/${domain}/";
+site_path="/home/${user}/${sites_folder_name}/${domain}/";
 site_public_path="${site_path}www/";
 site_log_path="${site_path}logs/";
 site_backup_path="${site_path}backups/";
