@@ -26,6 +26,9 @@
     		<Directory "/usr/lib/cgi-bin">
     			Require all granted
     		</Directory>
+                <FilesMatch ".+\.ph(p|tml)$">
+        		SetHandler php-fcgi.${domain}
+    		</FilesMatch>
     	</IfModule>
 </VirtualHost>
 
